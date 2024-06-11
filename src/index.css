@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  background: rgb(0, 0, 12);
+  width: 100%;
+}
+.about{
+  min-width: 100%;
+}
+/* 
+.trapezium {
+  position: relative;
+  width: 70%;
+  height: 10px;
+  background-color: transparent;
+  border-top: 300px solid white;
+  border-bottom: 300px solid transparent;
+  border-right: 50px solid transparent;
+  margin: 10vh 10px;
+} */
+
+.box-shadow{
+  box-shadow:
+    1px 1px 5px rgba(225, 6, 6, 0.9),
+    2px 2px 10px rgba(238, 7, 7, 0.5),
+    3px 3px 15px rgba(245, 8, 8, 0.3);
+}
+.text-shadow{
+  text-shadow:
+    1px 1px 4px rgba(225, 6, 6, 0.9),
+    2px 2px 4px rgba(238, 7, 7, 0.5),
+    3px 3px 4px rgba(245, 8, 8, 0.3);
+}
