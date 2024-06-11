@@ -9,7 +9,7 @@ import { easeInOut, motion } from "framer-motion"
 
 const About2 = () => {
     return (
-        <div className=' px-[10px] mx-auto  w-full sm:w-full md:w-full    mt-[2vh] pb-[20vh] flex  flex-col text-white'>
+        <div className='w-[640px] sm:w-full px-[10px]  mx-auto   mt-[2vh] pb-[20vh] flex  flex-col text-white'>
             <div className='top relative my-[2vh] w-[95vw]  sm:w-[40vw] md:w-[30vw]  '>
                 <motion.img
                     initial={{
@@ -18,13 +18,13 @@ const About2 = () => {
                     whileInView={{
                         scale: [0, 1.09, 1],
                     }}
-                    className='p-[10px] w-[100%]  '
+                    className='p-[10px] w-[100%]'
                     src="https://gymate-iota.vercel.app/static/media/title-bg.13d788348b56c629eefb2e7ad1f4d6ce.svg" alt="" />
                 <h2 className='uppercase text-white absolute  top-6 left-[100px] font-black z-10'>who we are</h2>
             </div>
 
-            <div className="flex  sm:h-[60vh] w-[608px] sm:w-full ">
-              <div className="left w-[50%]  md:[50%] p-[5px] md:p-[10px]">
+            <div className="flex  sm:h-[60vh]  ">
+              <div className="left w-[50%]   md:[50%] p-[5px] md:p-[10px]">
                 <div className='  h-[70%] flex flex-col md:gap-10 py-10 px-5'>
                     <motion.h1
                         variants={{
@@ -49,13 +49,13 @@ const About2 = () => {
                             duration: 0.5,
 
                         }}
-                        className='uppercase tex-[22px] md:text-[30px] w-[80%] font-bold'>Take Your Health And Body To Next Level</motion.h1>
-                    <p className=' text-gray-500'>Take your health and body to the next level with our comprehensive program designed to help you reach your fitness goals</p>
+                        className='uppercase text-[25px] md:text-[30px] w-[80%] font-bold'>Take Your Health And Body To Next Level</motion.h1>
+                    <p className=' text-gray-500 text-2xl'>Take your health and body to the next level with our comprehensive program designed to help you reach your fitness goals</p>
                 </div>
               </div>
 
 
-             <div className="right w-[50%]    flex flex-col justify-center items-center">
+             <div className="right w-[50%] flex flex-col justify-center items-center">
                 <motion.img
                     initial={{
                         scale: 0,

@@ -11,7 +11,7 @@ const classesCard = [{img:'./images/cycling.png',heading:'cycling', time:"Wednes
 ]
 const Classes = () => {
   return (
-    <div className='flex pb-[20px] w-[718px] sm:w-full  flex-col text-white '>
+    <div className='w-[640px] sm:w-full flex pb-[20px]  flex-col text-white '>
        <div className=' relative  w-[518px] sm:w-[60vw] md:w-[45vw] lg:w-[30vw] mx-auto'>
        <motion.img
        initial={{scale:0,

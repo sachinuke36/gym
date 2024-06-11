@@ -6,7 +6,7 @@ const Pricing = () => {
     {img:'./images/header1.jpg',stage:'beginers',price:1200, elements:['free hand','gym fitness','weight loss','personal trainer','cycling']},
     {img:'./images/pricing-2.jpg',stage:'beginers',price:1200, elements:['free hand','gym fitness','weight loss','personal trainer','cycling']}]
   return (
-    <div className='text-white flex w-[718px] sm:w-full flex-col border border-green-600 gap-5 my-[10vh]'>
+    <div className='w-[640px] sm:w-full  text-white flex  flex-col  gap-5 my-[10vh]'>
       <div className='relative w-[90vw] sm:w-[55vw] md:w-[35vw] lg:w-[20vw] mx-auto '>
                 <motion.img
                 initial={{scale:0,

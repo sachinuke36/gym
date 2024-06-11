@@ -7,7 +7,7 @@ import { IoLogoYoutube } from "react-icons/io";
 
 const Footer = () => {
   return (
-    <div className='text-white  w-[718px] sm:w-full grid place-items-center grid-cols-3 p-[40px]  mt-8'>
+    <div className='w-[640px] sm:w-full  text-white grid place-items-center grid-cols-3 p-[40px] text-xl  mt-8'>
         <div className='flex flex-col gap-[10px] '>
         <h1 className='font-semibold text-5xl text-red-600 text-shadow'>GYM</h1>
         <p className=' text-gray-500'>Take your health and body to the next level with our comprehensive program designed to help you reach your fitness goals.</p>
